@@ -21,17 +21,16 @@ I engineer secure, automated and observable platforms — turning complex, multi
 
 ### HisnStack
 
-A self-hosted control plane for servers, secure networking, files and Odoo deployments — driven from a CLI, a web console or a REST API.
+A self-hosted infrastructure control plane for Linux and Windows servers — web console, CLI and REST API, with role-based access.
 
-| Module | What it does |
+| Area | Modules |
 | --- | --- |
-| **Servers** | Bootstrap, harden, patch and monitor Linux servers across a fleet |
-| **Deploy** | Multi-instance Odoo provisioning with domains, auto-SSL, backups, restores and upgrades |
-| **Mesh** | Zero-trust mesh VPN (WireGuard, NetBird model) for offices, servers and remote staff |
-| **Files** | File management with incremental Windows ↔ Linux sync (PowerShell, rclone, SSH) |
-| **Pipelines** | GitLab CI/CD for Odoo add-ons with staged promotion and one-step rollback |
-
-Stack: Bash · Python · Docker · PostgreSQL · Nginx · WireGuard · GitLab CI
+| **Odoo & Apps** | Odoo Gate · SaaS Gate · Templates · DB Sync · Client Move / Copy · Git Gate · Migration |
+| **Servers & VMs** | Linux & Windows servers · Network map · VMs Manager · Remote servers · HA Gate |
+| **Network & Security** | VPN Gate · Security Gate · Nginx Gate · Mail Server Gate · Website Gate |
+| **Data & Backup** | Proxmox Backup (PBS) Gate · Incremental Sync (Windows ↔ Linux) · File Manager · Emergency Gate |
+| **Observability** | Live Monitor · Health Engine · System Monitor · Smart Grafana · Visual Logs · Notifications |
+| **Teams & AI** | Users & Roles · Sessions · Audit Log · Support Desk · AI Assistant · Code Editor & Reviews |
 
 ### Odoo products
 
